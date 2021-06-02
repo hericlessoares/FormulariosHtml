@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="autor" content="Hericles Soares">
+  <title>Tutorial Coffe Tag-Formulario</title>
+</head>
+<body>
+  <div class="registroformulario"><h1>Formulario de Cadastro</h1></div>
+  <div class="conteudo">
+    <form>
+      <div id="nome">
+        <h2 class="nome">Nome e sobrenome</h2>
+        <input class="primeironome" type="text" name="primeiro_nome">
+        <label class="primeirolabel">Nome</label>
+        <input class="sobrenome" type="text" name="sobre_nome">
+        <label class="sobrenomelabel">Sobrenome</label>
+      </div>
+      <h2 class="nome">Empresa</h2>
+      <input class="empresa" type="text" name="empresa">
+      <h2 class="nome">Email</h2>
+      <input class="empresa" type="email" name="email">
+      <h2 class="nome">Telefone com DDD</h2>
+      <input class="codigo" type="tex" name="codigo_area">
+      <label class="codigo_area">DDD</label>
+      <input class="number" type="text" name="phone">
+      <label class="numero-telefone">Telefone</label>
+
+      <h2 class="nome">sexo</h2>
+      <select class="opcoes" name="assunto">
+        <option disabled="disabled" selected="selected">Selecione a Opção</option>
+        <option>Masculino</option>
+        <option>Feminio</option>
+      </select>
+
+      <h2 class="nivel">Você é iniciante?</h2>
+      <label class="radio">
+        <input class="radio-one" type="radio" name="radio" checked="checked" name="">
+        <span class="checkmark"></span>
+
+        Sim
+      </label>
+      <label class="radio">
+        <input class="radio-two" type="radio" name="radio" checked="checked" name="">
+        <span class="checkmark"></span>
+
+        Não
+      </label>
+      <button type="submit">Enviar</button>
+      
+
+
+    </form>
+  </div>
+ 
+</body>
+</html>
